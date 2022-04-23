@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Examen2</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="menu_examen2">Examen 2</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="msg_nombre">Nombre del Paseador</string>
+    <string name="msg_correo">Correo</string>
+    <string name="msg_telefono">Telefono</string>
+    <string name="msg_precio">Precio</string>
+    <string name="msg_distancias">Distancias</string>
+    <string name="bt_agregar">Agregar</string>
+    <string name="msg_examen2_add">Paseador agregado</string>
+    <string name="msg_examen2_update">Paseador actualizado</string>
+    <string name="msg_examen2_delete">Paseador eliminado</string>
+    <string name="bt_update_examen2">Actualizar Paseador</string>
+    <string name="menu_delete">Eliminar Paseador</string>
+    <string name="msg_seguroBorrar">Esta seguro de borrarlo?</string>
+    <string name="no">NO</string>
+    <string name="si">SI</string>
+
+    <string name="msg_datos">Faltan datos</string>
+    <string name="msg_phone_call">Realizar llamada telefónica</string>
 </resources>

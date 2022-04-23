@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/navUpdateExamen2"
+        android:name="com.examen2.ui.examen2.UpdateExamen2Fragment"
+        android:label="fragment_update_examen2"
+        tools:layout="@layout/fragment_update_examen2">
+        <action
+            android:id="@+id/action_navUpdateExamen2_to_nav_examen2"
+            app:destination="@id/nav_examen2" />
+        <argument
+            android:name="examen2"
+            app:argType="com.examen2.model.Examen2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_examen2"
+        android:name="com.examen2.ui.examen2.Examen2Fragment"
+        android:label="@string/menu_examen2"
+        tools:layout="@layout/fragment_examen2" >
+        <action
+            android:id="@+id/action_nav_examen2_to_addExamen2Fragment"
+            app:destination="@id/addExamen2Fragment" />
+        <action
+            android:id="@+id/action_nav_examen2_to_navUpdateExamen2"
+            app:destination="@id/navUpdateExamen2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.examen2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.examen2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addExamen2Fragment"
+        android:name="com.examen2.ui.examen2.AddExamen2Fragment"
+        android:label="fragment_add_examen2"
+        tools:layout="@layout/fragment_add_examen2" >
+        <action
+            android:id="@+id/action_addExamen2Fragment_to_nav_examen2"
+            app:destination="@id/nav_examen2" />
+    </fragment>
+</navigation>
